@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+</body>
+
+<script>
+
+//     class Person {
+
+//         constructor(a, b) {
+//         //    console.log(this.constructor)
+//             if (this.constructor == Person) {
+//                 throw 'This is abstract class'
+
+//             }
+//             this.name = a;
+//             this.age = b
+//         }
+
+
+//     }
+
+//     class Student extends Person {
+//         constructor(a, b) {
+//             super(a, b)
+//         }
+        
+//     }
+
+
+//     class Employee extends Person {
+//         static count = 0;
+//         #id;
+//         salary=0;
+//         constructor(a, b) {
+//             Employee.count++;
+//             super(a, b)
+//         }
+
+       
+
+//         static displayHRrules() {
+//             console.log("1.rule1,2.rule2,3.rule3")
+//         }
+
+//         setID(id){
+//             this.#id=id;
+//         }
+
+//         getID(){
+//             return this.#id;
+//         }
+
+
+//     setSalary(num){
+//         this.num=num;
+//     }
+//         ShowSalary()
+//         {
+// return this.num;
+//         }
+
+//         IncreaseSalary(increase)
+//         {
+// return this.num+increase
+//         }
+        
+//     }
+
+//     // var P1 = new Person("Ali", 30);
+//     // var P1 = new Person("Ahmed", 20);
+//     // var S1 = new Student("Sara", 25);
+//     var Emp1 =new Employee("Omr", 25);
+//     var Emp2 =new Employee("Ali", 15);
+//     var Emp3 =new Employee("Sara", 65);
+
+// //     Employee.displayHRrules();
+// //     console.log(Employee.count);
+// //     Emp1.setID(100);
+// // console.log(Emp1.getID());
+
+// Emp1.setSalary(100);
+// console.log(Emp1.ShowSalary());
+// console.log(Emp1.IncreaseSalary(200));
+
+
+///////////////////////////////////////////////////////////////////////
+
+
+
+// var scientificDep={name:"ALI", location:"Egypt", Address:{city:"Aswan",Street:"ALslam",ZipCode:"555"}};
+
+// const show = Object.values(scientificDep);
+// console.log(show)
+
+
+////////////////////////////////////////////////////////////////////////
+
+
+// function maxNum()
+// {
+//     return Math.max(...arr)
+// }
+
+
+// var arr=[10,15,20,30,200,255,700];
+
+// console.log(maxNum());
+
+
+//////////////////////////////////////////////////////
+
+
+// var Fruits=["apple","strawberry","banana","orange","mango"];
+
+// // var test = Fruits.filter(function(item){
+// //     return item.startsWith("a")
+// // })
+
+
+// // console.log(test);
+
+// /////////////////////////////////////////////////////////////////
+
+// var isString = arr => arr.every(i => typeof i === "string")
+
+// console.log(isString(Fruits))
+
+// //////////////////////////////////////////////////////////////////////////
+
+// var check = Fruits.filter(function(item){
+//     return item.startsWith("s") || item.startsWith("b") || item.startsWith("o")
+// })
+
+
+// console.log(check);
+
+
+// ////////////////////////////////////////////////////////////////
+
+// Fruits.forEach(element => console.log(element));
+
+// /////////////////////////////////////////////////////////////
+// check.forEach(element => console.log(element));
+
+
+///////////////////////////////////////////////////////////////////
+
+
+//Q6
+
+
+var countries=["England","China","Egypt","Egypt","Japan","England","Egypt","Japan"];
+
+var ArrLen=countries.length 
+var New=new Set(countries)
+
+var NewArr=ArrLen-New.size
+
+console.log(NewArr);
+console.log(ArrLen);
+console.log(New);
+
+
+
+
+
+
+
+</script>
+
+</html>
